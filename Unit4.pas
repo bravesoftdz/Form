@@ -10,8 +10,7 @@ uses
 
 type
   TInterfaceMenuCreate = interface
-    function GetInstance(AOwner: TForm): TInterfaceMenuCreate;
-    procedure ButtonClickDestroy(Sender: TObject);
+    procedure destroy;
   end;
 
 implementation

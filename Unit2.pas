@@ -15,28 +15,17 @@ type
     Label1: TLabel;
     Edit1: TEdit;
     Button1: TButton;
-    constructor createActual(AOwner: TForm);
   public
-    function GetInstance(AOwner: TForm): TInterfaceMenuCreate;
-    procedure ButtonClickDestroy(Sender: TObject);
+    constructor create(AOwner: TForm);
+    procedure destroy;
   end;
 
 implementation
 
 { TFile1 }
 
-procedure TFileCreate.ButtonClickDestroy(Sender: TObject);
+constructor TFileCreate.create(AOwner: TForm);
 begin
-    Label1.Free;
-    Edit1.Free;
-    Button1.Free;
-end;
-
-constructor TFileCreate.createActual(AOwner: TForm);
-begin
-  Label1.Free;
-  Edit1.Free;
-  Button1.Free;
   Label1 := TLabel.create(AOwner);
   Label1.Left := 8;
   Label1.Top := 8;
@@ -52,13 +41,14 @@ begin
   Button1.Top := 48;
   Button1.Parent := AOwner;
   Button1.Caption := 'Button1.Caption';
-  Button1.OnClick := ButtonClickDestroy;
+  //Button1.OnClick := ButtonClickDestroy;
 end;
 
-function TFileCreate.GetInstance(AOwner: TForm): TInterfaceMenuCreate;
+procedure TFileCreate.destroy;
 begin
-  if Label1 = nil then
-    result := TFileCreate.createActual(AOwner);
+    Label1.Free;
+    Edit1.Free;
+    Button1.Free;
 end;
 
 end.

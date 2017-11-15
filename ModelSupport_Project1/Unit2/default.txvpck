@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0k8217a01lg_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.TFileCreate">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="480,300,129,160" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TFileCreate.Label1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TFileCreate.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit2.TFileCreate.Button1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TFileCreate.create(Vcl.Forms.TForm)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit2.TFileCreate.destroy()" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit2.TFileCreate:Unit4.TInterfaceMenuCreate">
+        <property name="sourceAnchor" value="609,317" />
+        <property name="targetAnchor" value="793,140" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit2.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="130,115,200,205" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.MainMenu1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.File1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.New1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.FileClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.NewClick(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.MainMenu1Enabled()" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.fFileCreate" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.create(System.Classes.TComponent)" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.fFileCreate">
+        <property name="sourceAnchor" value="330,127" />
+        <property name="targetAnchor" value="748,127" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit3.TNewCreate">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="740,280,129,160" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.TNewCreate.Label1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.TNewCreate.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit3.TNewCreate.Button1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.TNewCreate.create(Vcl.Forms.TForm)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit3.TNewCreate.destroy()" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit3.TNewCreate:Unit4.TInterfaceMenuCreate">
+        <property name="sourceAnchor" value="808,280" />
+        <property name="targetAnchor" value="808,140" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit4.TInterfaceMenuCreate">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="748,59,177,81" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit4.TInterfaceMenuCreate.destroy()" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit5.TNilCreate">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="1015,379,129,160" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit5.TNilCreate.Label1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit5.TNilCreate.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit5.TNilCreate.Button1" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit5.TNilCreate.create(Vcl.Forms.TForm)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit5.TNilCreate.destroy()" />
+      <reference referencedUin="delphi:l_impl:src:Project1:Unit5.TNilCreate:Unit4.TInterfaceMenuCreate">
+        <property name="sourceAnchor" value="1024,379" />
+        <property name="targetAnchor" value="863,140" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+  </view>
+</nodeSet>

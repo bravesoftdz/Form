@@ -17,18 +17,12 @@ type
     Button1: TButton;
   public
     constructor create(AOwner: TForm);
-    function GetInstance(AOwner: TForm): TInterfaceMenuCreate;
-    procedure ButtonClickDestroy(Sender: TObject);
+    procedure destroy;
   end;
 
 implementation
 
 { TNilCreate }
-
-procedure TNilCreate.ButtonClickDestroy(Sender: TObject);
-begin
-  //
-end;
 
 constructor TNilCreate.create(AOwner: TForm);
 begin
@@ -36,9 +30,12 @@ begin
   Edit1 := TEdit.create(nil);
   Button1 := TButton.create(nil);
 end;
-function TNilCreate.GetInstance(AOwner: TForm): TInterfaceMenuCreate;
+
+procedure TNilCreate.destroy;
 begin
-  //
+    Label1.Free;
+    Edit1.Free;
+    Button1.Free;
 end;
 
 end.

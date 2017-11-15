@@ -9,6 +9,8 @@ uses
   Unit5 in 'Unit5.pas';
 
 {$R *.res}
+var
+  Form1: TForm1;
 
 begin
   Application.Initialize;
